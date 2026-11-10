@@ -20,9 +20,6 @@ Route::middleware('guest')->group(function () {
     });
 
     Route::post('/auth', [AuthController::class, 'authenticate'])->name('login');
-
-
-
 });
 
 
