@@ -1,0 +1,1 @@
+<a href="{{ route('images.create') }}" class="btn-solid theme-primary">Tambah gambar +</a>

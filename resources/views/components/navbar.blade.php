@@ -1,19 +1,19 @@
-<nav class="navbar md:navbar-expand bg-1">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">{{env('APP_NAME')}}</a>
-        <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer"
-            aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" aria-hidden="true"></span>
-        </button>
-        <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
-            <div class="drawer-header">
-                <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+<header class="">
+    <div class="container-fluid px-5 lg:px-6">
+        <div class="masthead">
+
+            <div class="masthead-left">
+                <ul class="nav navbar-nav d-none lg:d-flex gap-4">
+                    <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#series">Series</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                </ul>
             </div>
-            <div class="drawer-body mb-2 md:mb-0">
+
+            <a class="wordmark" href="index.html">{{env('APP_NAME')}}</a>
 
 
-            </div>
-        </dialog>
+
+        </div>
     </div>
-</nav>
+</header>
